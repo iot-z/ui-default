@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IOTZ UI Default</title>
+</head>
+<body>
+    <div id="app">
+        <label>
+            <input type="checkbox" v-model="LED_BUILTIN"> Toggle
+        </label>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="/iotz.js"></script>
+    <script>
+        console.log(IOTZ);
+        IOTZ.init(function (state, actions) {
+            console.log(state, actions);
+
+            app = new Vue({
+                el: '#app',
+                data: state,
+                methods: actions,
+            });
+        });
+    </script>
+</body>
+</html>
