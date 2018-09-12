@@ -1,7 +1,7 @@
 {
-  "name": "iotz-ui-default",
+  "name": "@iotz/ui-default",
   "version": "1.0.0",
-  "description": "IOTZ UI Default",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
