@@ -1,11 +1,19 @@
 {
   "name": "@iotz/ui-default",
   "version": "1.0.0",
-  "description": "",
+  "description": "IOTZ UI default",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iot-z/ui-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iot-z/ui-default/issues"
+  },
+  "homepage": "https://github.com/iot-z/ui-default#readme"
 }
